@@ -3,8 +3,9 @@ pipeline {
   stages {
     stage ('Initialize') {
       steps { 
-        script(echo 'welcome to jenkins new pipelineSC')
-       
+        script {
+          echo "welcome to jenkins new pipelineSC"
+        }
       }
     }
   }
