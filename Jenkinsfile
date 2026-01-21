@@ -1,15 +1,10 @@
 pipeline {
-    agent any
-    stages{
-        stage('git checkout')
- 
-   
-        steps{
-            script{
-                println "hello welcome to jenkens piplineSC"
-            }
-        }
-     
-        
-        }
+  agent any
+  stages {
+    stage ('Initialize') {
+      steps {
+      sh(echo 'welcome to jenkins pipelineSC')  
+      }
     }
+  }
+}
