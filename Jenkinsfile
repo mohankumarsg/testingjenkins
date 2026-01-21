@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Initialize') {
       steps {
-      sh(echo 'welcome to jenkins pipelineSC')  
+        echo 'welcome to jenkins pipelineSC'
       }
     }
   }
