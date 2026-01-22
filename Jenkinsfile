@@ -19,6 +19,7 @@ environment {
           echo "my environament is ${env.Java_home}"
           echo "my git commit ${GIT_COMMIT}"
           echo "my workspace ${WORKSPACE}"
+          echo \"The environment parameter in shell is: \${params.ENV}\"
         }
       }
     }
